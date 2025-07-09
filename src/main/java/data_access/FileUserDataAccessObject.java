@@ -109,4 +109,9 @@ public class FileUserDataAccessObject implements SignupUserDataAccessInterface,
         // Not implemented for DB
     }
 
+    @Override
+    public String getCurrentUser() {
+        return null;
+    }
+
 }
